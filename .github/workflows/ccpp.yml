@@ -90,7 +90,7 @@ jobs:
     - name: Install dependencies
       shell: pwsh
       run: |
-        Invoke-WebRequest https://download.microsoft.com/download/A/E/0/AE002626-9D9D-448D-8197-1EA510E297CE/msmpisetup.exe -OutFile msmpi.exe
+        Invoke-WebRequest https://download.microsoft.com/download/a/5/2/a5207ca5-1203-491a-8fb8-906fd68ae623/msmpisetup.exe -OutFile msmpi.exe
         .\msmpi.exe -unattend
     - name: Cache vcpkg
       id: cache-vcpkg
